@@ -27,6 +27,4 @@ Even though the player will be surprised by every word after some point he will 
 
 ## Solution
 
-Lets take the word from online websites itself so that every time someone playes the game the new word genrates
-
-Lets import requests as well and get Randon Word APIs 
+Lets take the word from from MacOs built in dictionary file which consists of 235,000 English words
