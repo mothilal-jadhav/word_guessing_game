@@ -1,12 +1,14 @@
-import requests
+import random as r
 
 
 print (f'Hello Buddy!! How are You. Lets Start the Game')
 
 
 
-key = requests.get("https://random-word-api.herokuapp.com/word").json()[0]
-word = key.lower()
+with open("/usr/share/dict/words") as f:
+    words = [w.strip().lower() for w in f if w.strip().isalpha()]
+
+word = r.choice(words)
 
 guesses = set()
 turns = len(word)
