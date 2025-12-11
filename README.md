@@ -20,3 +20,13 @@ It is a simple word-guessing game where the user has to guess the characters in 
 7. else the user will be asked to guess another character and that character will be concatenated with the guesses string we intialized earlier
 8. if the guessed character not in words then number of turns decreases by 1, a wrong message will be displayed along with the number of turns left
 9. if turns == 0 then the user has lost 
+
+## Problems 
+
+Even though the player will be surprised by every word after some point he will become better at it as there are only limited words
+
+## Solution
+
+Lets take the word from online websites itself so that every time someone playes the game the new word genrates
+
+Lets import requests as well and get Randon Word APIs 
